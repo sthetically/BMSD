@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - BMSD Construction Corp </title>
+  <link rel="stylesheet" href="mb.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #2f413a;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    .contact-section {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #3d5348;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .contact-section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-form label {
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .contact-form textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .contact-form button {
+      margin-top: 20px;
+      padding: 12px;
+      font-size: 18px;
+      background-color: #efa122;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .contact-form button:hover {
+      background-color: #d8901d;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #1f2c25;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+    <header class="text-center my-4">
+    <img src="images/MBlogo.png" alt="BMSD Construction Corp Logo" width="300" id="logo" />
+  </header>
+
+  <hr class="thick-hr" />
+
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="projects.html">Projects</a>
+    <a href="testimonials.html">Testimonials</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <hr class="thick-hr" />
+
+  <section class="contact-section">
+    <h2>Contact Us</h2>
+    <form class="contact-form" action="#" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890">
+
+      <label for="service">Service Needed</label>
+      <input type="text" id="service" name="service" placeholder="E.g., kitchen remodeling, roofing..." required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Tell us more about your project..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BMSD Construction Corp . All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

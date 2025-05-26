@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+body {
+      background-color: #2f413a;
+      font-family: Arial, sans-serif;
+      color: white;
+      margin: 0;
+      padding: 20px;
+    }
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 1em 0;
+  background-color: transparent;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  text-shadow:
+    -2px -2px 0 #000,
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000;
+}
+
+.navbar a:hover {
+  color: #efa122;
+}
+
+hr.thick-hr {
+      height: 5px;
+      background-color: black;
+      border: none;
+      margin: 20px 0;
+    }
+
+footer {
+      text-align: center;
+      padding: 20px 0;
+      color: white;
+      background-color: #222;
+      font-size: 0.9rem;
+      user-select: none;
+      height: 65px;
+    }
+
+
+#logo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.cta {
+  background-color: #efa122;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+  box-shadow:
+    0 0 15px rgba(239, 161, 34, 0.7);
+}
+
+.cta h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  font-family: 'Rouge Script', cursive;
+  text-shadow: 2px 2px 4px #00000099;
+}
+
+.cta p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.cta a.btn-quote {
+  display: inline-block;
+  background-color: #2f413a;
+  color: #efa122;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta a.btn-quote:hover {
+  background-color: #1f2b29;
+  color: #ffd366;
+}
